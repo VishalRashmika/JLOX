@@ -1,8 +1,8 @@
-main: clean
-	javac ./hello.java
+main:
+	javac -d . --release 21 --enable-preview *.java
 
 run:
-	java HelloWorld
+	java lox.Lox
 
 clean:
 	rm *.class
