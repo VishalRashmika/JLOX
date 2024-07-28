@@ -10,6 +10,7 @@ import java.util.List;
 
 public class Lox {
     // Entry Point
+    static boolean hadError = false;
     public static void main(String[] args) throws IOException {
         // Error Handling
         if (args.length > 1) {
@@ -69,6 +70,4 @@ private static void report(int line, String where, String message) {
     hadError = true;
 }
 
-public class Lox {
-    // checks whether an error has occured
-    static boolean hadError = false;
+
