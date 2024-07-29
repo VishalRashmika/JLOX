@@ -5,4 +5,4 @@ run:
 	java lox.Lox
 
 clean:
-	rm *.class
+	rm ./lox
