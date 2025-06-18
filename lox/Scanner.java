@@ -1,12 +1,12 @@
 //> Scanning scanner-class
-package lox;
+package lox_pkg;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static lox.TokenType.*; // [static-import]
+import static lox_pkg.TokenType.*; // [static-import]
 
 class Scanner {
 //> keyword-map
